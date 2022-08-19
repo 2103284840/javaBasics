@@ -8,7 +8,7 @@ public class Sort {
       private static Sort sort = new Sort();
       public static Sort getInstance(){
           return sort;
-    }*/
+    }
     
     private Sort(){};
     private static Sort sort = null;
@@ -17,7 +17,7 @@ public class Sort {
             sort = new Sort();
         }
         return sort;
-    }
+    }*/
 
     public static void BubbleSort(){
         Scanner input = new Scanner(System.in);
